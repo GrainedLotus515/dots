@@ -25,9 +25,9 @@ xdg-desktop-portal-gtk                                 # xdg desktop portal usin
 # lutris                                               # Lutris is an open source gaming platform for Linux
 
 # --------------------------------------------------- // Music
-cava                                                   # audio visualizer
-spotify                                                # proprietary music streaming service
-spicetify-cli                                          # cli to customize spotify client
+# cava                                                   # audio visualizer
+# spotify                                                # proprietary music streaming service
+# spicetify-cli                                          # cli to customize spotify client
 
 # --------------------------------------------------- // Apps
 neovim                                               # vim based text editor
@@ -43,10 +43,10 @@ code-marketplace|code                                 # Code-Oss marketplace
 # visual-studio-code-bin                                # MS  text editor
 
 # --------------------------------------------------- // Backends
-#electron                                              # electron backend
+# electron                                              # electron backend
 
 # --------------------------------------------------- // Lockscreen
-#swaylock-effects-git                                   # swaylock with effects // very minimal lockscreen
+# swaylock-effects-git                                   # swaylock with effects // very minimal lockscreen
 
 # --------------------------------------------------- // OSD
 swayosd-git                                             #A GTK based on screen display for keyboard shortcuts like caps-lock and volume
