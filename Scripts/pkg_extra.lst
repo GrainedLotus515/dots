@@ -39,7 +39,7 @@ neovim                                               # vim based text editor
 # --------------------------------------------------- // Editor
 # vscodium-bin                                          # Full oss text editor
 # vscodium-marketplace|vscodium-bin                 # VSCodium marketplace
-# code-marketplace|code                                 # Code-Oss marketplace
+code-marketplace|code                                 # Code-Oss marketplace
 # visual-studio-code-bin                                # MS  text editor
 
 # --------------------------------------------------- // Backends
