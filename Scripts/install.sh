@@ -37,7 +37,7 @@ flg_Restore=0
 flg_Service=0
 flg_DryRun=0
 flg_Shell=0
-flg_Nvidia=1
+flg_Nvidia=0
 flg_ThemeInstall=1
 
 while getopts idrstmnh: RunStep; do

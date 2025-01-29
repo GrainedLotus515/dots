@@ -107,8 +107,6 @@ setopt hist_find_no_dups
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
-# source /usr/share/zsh/plugins/archlinux/archlinux.plugin.zsh
-source <(packwiz completion zsh); compdef _packwiz packwiz
 
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
@@ -185,7 +183,6 @@ fi
 # ██║  ██║███████╗██║██║  ██║███████║███████╗███████║
 # ╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
 # General
-alias mirrors="sudo cachyos-rate-mirrors"
 alias cat="bat"
 alias ls='eza -a --icons=always --color=always'
 alias ll='eza -lha --icons=always --color=always --group-directories-first'
@@ -198,7 +195,48 @@ alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 alias upgrade='yay'
 alias mkdir='mkdir -p'
+alias mirrors="sudo cachyos-rate-mirrors"
 
+# Pacman - https://wiki.archlinux.org/index.php/Pacman_Tips
+alias pacupg='sudo pacman -Syu'
+alias pacin='sudo pacman -S'
+alias paclean='sudo pacman -Sc'
+alias pacins='sudo pacman -U'
+alias paclr='sudo pacman -Scc'
+alias pacre='sudo pacman -R'
+alias pacrem='sudo pacman -Rns'
+alias pacrep='pacman -Si'
+alias pacreps='pacman -Ss'
+alias pacloc='pacman -Qi'
+alias paclocs='pacman -Qs'
+alias pacinsd='sudo pacman -S --asdeps'
+alias pacmir='sudo pacman -Syy'
+alias paclsorphans='sudo pacman -Qdt'
+alias pacfileupg='sudo pacman -Fy'
+alias pacfiles='pacman -F'
+alias pacls='pacman -Ql'
+alias pacown='pacman -Qo'
+alias pacupd="sudo pacman -Sy"
+
+# Yay - https://github.com/Jguer/yay
+alias yaconf='yay -Pg'
+alias yaclean='yay -Sc'
+alias yaclr='yay -Scc'
+alias yaupg='yay -Syu'
+alias yasu='yay -Syu --noconfirm'
+alias yain='yay -S'
+alias yains='yay -U'
+alias yare='yay -R'
+alias yarem='yay -Rns'
+alias yarep='yay -Si'
+alias yareps='yay -Ss'
+alias yaloc='yay -Qi'
+alias yalocs='yay -Qs'
+alias yalst='yay -Qe'
+alias yaorph='yay -Qtd'
+alias yainsd='yay -S --asdeps'
+alias yamir='yay -Syy'
+alias yaupd="yay -Sy"
 
 #  █████╗ ██╗   ██╗████████╗ ██████╗     ███████╗████████╗ █████╗ ██████╗ ████████╗
 # ██╔══██╗██║   ██║╚══██╔══╝██╔═══██╗    ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗╚══██╔══╝
