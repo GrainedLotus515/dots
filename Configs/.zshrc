@@ -183,7 +183,7 @@ fi
 # ██║  ██║███████╗██║██║  ██║███████║███████╗███████║
 # ╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
 # General
-alias cat="bat"
+alias cat="bat --color=always"
 alias ls='eza -a --icons=always --color=always'
 alias ll='eza -lha --icons=always --color=always --group-directories-first'
 alias ld='eza -lhD --icons=always --color=always'
