@@ -37,7 +37,7 @@ flg_Restore=0
 flg_Service=0
 flg_DryRun=0
 flg_Shell=0
-flg_Nvidia=0
+flg_Nvidia=1
 flg_ThemeInstall=1
 
 while getopts idrstmnh: RunStep; do
@@ -162,8 +162,8 @@ EOF
 
         case "${PROMPT_INPUT}" in
         1) export getAur="yay" ;;
-        2) export getAur="yay-bin" ;;
-        3) export getAur="paru" ;;
+        2) export getAur="paru" ;;
+        3) export getAur="yay-bin" ;;
         4) export getAur="paru-bin" ;;
         q)
             print_log -sec "AUR" -crit "Quit" "Exiting..."
